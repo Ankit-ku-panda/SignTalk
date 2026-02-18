@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F3E5F5">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Selected Emoji Preview -->
+        <TextView
+            android:id="@+id/emojiPreview"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:text="Selected gestures appear here"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:background="#E1BEE7"
+            android:padding="10dp"
+            android:layout_marginBottom="12dp"/>
+
+        <!-- Translation Result Box -->
+        <TextView
+            android:id="@+id/resultBox"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:text="Translation will appear here"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:background="#D1C4E9"
+            android:padding="12dp"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- Emoji Buttons Grid -->
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:columnCount="4">
+
+            <Button android:id="@+id/e1" android:layout_width="0dp" android:layout_height="60dp" android:layout_columnWeight="1" android:text="👋"/>
+            <Button android:id="@+id/e2" android:layout_width="0dp" android:layout_height="60dp" android:layout_columnWeight="1" android:text="🙏"/>
+            <Button android:id="@+id/e3" android:layout_width="0dp" android:layout_height="60dp" android:layout_columnWeight="1" android:text="👍"/>
+            <Button android:id="@+id/e4" android:layout_width="0dp" android:layout_height="60dp" android:layout_columnWeight="1" android:text="👎"/>
+
+            <Button android:id="@+id/e5" android:layout_width="0dp" android:layout_height="60dp" android:layout_columnWeight="1" android:text="❤️"/>
+            <Button android:id="@+id/e6" android:layout_width="0dp" android:layout_height="60dp" android:layout_columnWeight="1" android:text="🍚"/>
+            <Button android:id="@+id/e7" android:layout_width="0dp" android:layout_height="60dp" android:layout_columnWeight="1" android:text="💧"/>
+            <Button android:id="@+id/e8" android:layout_width="0dp" android:layout_height="60dp" android:layout_columnWeight="1" android:text="📞"/>
+
+        </GridLayout>
+
+        <!-- Translate Button -->
+
+        <Button
+            android:id="@+id/translateBtn"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="20dp"
+            android:text="Translate Sentence" />
+
+        <Button
+            android:id="@+id/saveBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Save Phrase"/>
+
+        <Button
+            android:id="@+id/loadBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Show Saved Phrase"/>
+
+
+        <!-- Clear Button -->
+        <Button
+            android:id="@+id/clearBtn"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="Clear"
+            android:layout_marginTop="10dp"/>
+        <Button
+            android:id="@+id/cameraBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Open Camera"
+            android:textSize="18sp"
+            android:layout_marginTop="10dp"/>
+
+
+    </LinearLayout>
+</ScrollView>

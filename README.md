@@ -1,8 +1,3 @@
-Here is a **proper, professional, final-year level README.md file** for your repo:
-👉 [Open Your GitHub Repo (SignTalk)](https://dev.to/ankit01oss?utm_source=chatgpt.com)
-
-You can **copy-paste this directly into your GitHub README.md**.
-
 ---
 
 # 📌 Project Overview
